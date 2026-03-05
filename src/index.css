@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-hardware-orange: #F27D26;
+  --color-hardware-blue: #2563EB;
+  --color-industrial-zinc: #18181B;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F4F4F2] text-industrial-zinc antialiased;
+  }
+}
+
+.grid-pattern {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: 0.05;
+}
