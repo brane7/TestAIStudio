@@ -3,74 +3,74 @@ import { Product } from './types';
 export const PRODUCTS: Product[] = [
   {
     id: '1',
-    name: '황동 일자 손잡이',
-    description: '세월이 흐를수록 깊어지는 황동의 질감을 느낄 수 있는 가구용 손잡이입니다.',
-    price: 12000,
-    category: '가구 부속',
-    image: 'https://picsum.photos/seed/brass-handle/600/600',
-    specs: ['재질: 황동', '길이: 120mm', '원산지: 대한민국']
+    name: '가정용 망치 (중형)',
+    description: '가정에서 다용도로 사용하기 좋은 튼튼한 스틸 망치입니다. 고무 그립으로 미끄러움을 방지했습니다.',
+    price: 8000,
+    category: '일반 공구',
+    image: 'https://picsum.photos/seed/hammer/600/600',
+    specs: ['재질: 탄소강', '무게: 450g', '특징: 미끄럼 방지 그립']
   },
   {
     id: '2',
-    name: '산업용 스틸 후크',
-    description: '강력한 내구성을 자랑하는 벽면 고정용 스틸 후크입니다. 인더스트리얼 인테리어에 적합합니다.',
-    price: 8500,
-    category: '수납/정리',
-    image: 'https://picsum.photos/seed/steel-hook/600/600',
-    specs: ['재질: 강철', '내하중: 15kg', '마감: 분체도장']
+    name: '다용도 드라이버 세트',
+    description: '십자, 일자 등 다양한 규격의 비트가 포함된 정밀 드라이버 세트입니다.',
+    price: 15000,
+    category: '일반 공구',
+    image: 'https://picsum.photos/seed/screwdriver/600/600',
+    specs: ['구성: 12종 비트', '케이스 포함', '자석 팁']
   },
   {
     id: '3',
-    name: '빈티지 도어 벨',
-    description: '문이 열릴 때마다 맑은 소리를 내는 클래식한 디자인의 도어 벨입니다.',
-    price: 24000,
-    category: '인테리어 소품',
-    image: 'https://picsum.photos/seed/door-bell/600/600',
-    specs: ['재질: 주물', '소리: 맑은 고음', '설치: 자석/나사']
+    name: 'LED 주방등 교체 시공',
+    description: '어두운 주방을 밝게! 노후된 주방등을 고효율 LED 등으로 출장 교체해 드립니다.',
+    price: 45000,
+    category: '출장시공',
+    image: 'https://picsum.photos/seed/led-light/600/600',
+    specs: ['시공비 포함', 'LED 등기구 별도/포함 선택 가능', '시흥 전지역 출장']
   },
   {
     id: '4',
-    name: '무광 블랙 경첩 (2개입)',
-    description: '부드러운 개폐감과 세련된 무광 마감이 특징인 고품질 경첩 세트입니다.',
-    price: 6000,
-    category: '가구 부속',
-    image: 'https://picsum.photos/seed/hinge/600/600',
-    specs: ['재질: 아연합금', '수량: 1세트(2개)', '색상: 매트 블랙']
+    name: '현관 도어락 설치 서비스',
+    description: '디지털 도어락 신규 설치 및 노후 도어락 교체 시공 서비스입니다.',
+    price: 60000,
+    category: '출장시공',
+    image: 'https://picsum.photos/seed/doorlock/600/600',
+    specs: ['전문 기사 방문', '타공 및 설치 포함', '사용법 안내']
   },
   {
     id: '5',
-    name: '알루미늄 측정 자 (30cm)',
-    description: '정밀한 측정이 가능한 전문가용 알루미늄 자입니다. 레이저 각인으로 눈금이 지워지지 않습니다.',
-    price: 15000,
-    category: '측정 도구',
-    image: 'https://picsum.photos/seed/ruler/600/600',
-    specs: ['재질: 알루미늄', '길이: 300mm', '특징: 미끄럼 방지']
+    name: '강력 배수구 세정제',
+    description: '막힌 배수구를 시원하게 뚫어주는 고농축 액체 세정제입니다.',
+    price: 4500,
+    category: '생활용품',
+    image: 'https://picsum.photos/seed/cleaner/600/600',
+    specs: ['용량: 1L', '용도: 싱크대, 화장실', '강력 살균']
   },
   {
     id: '6',
-    name: '천연 가죽 공구 파우치',
-    description: '작은 공구들을 안전하게 보관할 수 있는 튼튼한 천연 가죽 소재의 파우치입니다.',
-    price: 38000,
-    category: '수납/정리',
-    image: 'https://picsum.photos/seed/pouch/600/600',
-    specs: ['재질: 소가죽', '크기: 200x150mm', '수작업 제작']
+    name: '투명 실리콘 (다용도)',
+    description: '창틀, 욕실 등 틈새 메꿈에 사용하는 고품질 투명 실리콘입니다.',
+    price: 3500,
+    category: '생활용품',
+    image: 'https://picsum.photos/seed/silicone/600/600',
+    specs: ['색상: 투명', '용량: 300ml', '곰팡이 방지']
   },
   {
     id: '7',
-    name: '구리 소재 S자 고리',
-    description: '주방이나 욕실에서 다용도로 활용 가능한 구리 소재의 S자 고리입니다.',
-    price: 4500,
-    category: '수납/정리',
-    image: 'https://picsum.photos/seed/copper-s-hook/600/600',
-    specs: ['재질: 구리', '길이: 80mm', '항균 효과']
+    name: '수전(수도꼭지) 교체 시공',
+    description: '물 새는 수도꼭지, 낡은 수전을 새것으로 깔끔하게 교체해 드립니다.',
+    price: 35000,
+    category: '출장시공',
+    image: 'https://picsum.photos/seed/faucet/600/600',
+    specs: ['주방/욕실 선택', '누수 점검 포함', '시공 시간 약 30분']
   },
   {
     id: '8',
-    name: '무쇠 주물 문고리',
-    description: '묵직한 무게감과 거친 질감이 매력적인 전통 방식의 무쇠 주물 문고리입니다.',
-    price: 29000,
-    category: '가구 부속',
-    image: 'https://picsum.photos/seed/iron-knob/600/600',
-    specs: ['재질: 무쇠 주물', '지름: 65mm', '전통 공법']
+    name: '멀티탭 5구 (3m)',
+    description: '과부하 차단 스위치가 장착된 안전한 5구 멀티탭입니다.',
+    price: 12500,
+    category: '생활용품',
+    image: 'https://picsum.photos/seed/multitab/600/600',
+    specs: ['길이: 3m', '안전 접지', '개별 스위치']
   }
 ];

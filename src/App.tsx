@@ -40,10 +40,10 @@ export default function App() {
               </div>
               <div>
                 <h1 className="text-2xl font-black tracking-tighter text-industrial-zinc uppercase leading-none">
-                  만물철물
+                  대영철물점
                 </h1>
                 <p className="text-[10px] font-mono text-industrial-zinc/50 tracking-widest uppercase">
-                  Est. 1988 / Hardware & Props
+                  시흥시 함송로 24 세종프라자 1층
                 </p>
               </div>
             </div>
@@ -122,12 +122,12 @@ export default function App() {
                 <span>NEW ARRIVALS</span>
               </div>
               <h2 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
-                단단한 일상을 <br />
-                <span className="text-hardware-orange">조립하다.</span>
+                우리 동네 <br />
+                <span className="text-hardware-orange">만능 해결사.</span>
               </h2>
               <p className="text-lg text-industrial-zinc/70 max-w-md mb-10 leading-relaxed">
-                만물철물은 단순한 부속품을 넘어, 공간의 완성도를 결정짓는 
-                작지만 묵직한 하드웨어들을 큐레이션합니다.
+                대영철물점은 각종 공구와 생활용품 판매는 물론, 
+                전문가의 손길이 필요한 출장시공 서비스를 제공합니다.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button className="px-8 py-4 bg-industrial-zinc text-white font-bold tracking-widest hover:bg-hardware-orange transition-all flex items-center gap-2 group">
@@ -308,11 +308,11 @@ export default function App() {
             <div className="space-y-6">
               <div className="flex items-center gap-3">
                 <Hammer className="w-6 h-6 text-hardware-orange" />
-                <h2 className="text-xl font-black tracking-tighter">만물철물</h2>
+                <h2 className="text-xl font-black tracking-tighter">대영철물점</h2>
               </div>
               <p className="text-sm text-industrial-zinc/60 leading-relaxed">
-                우리는 일상의 구석구석을 지탱하는 작은 부속들의 가치를 믿습니다. 
-                오랜 시간 곁에 두고 쓸 수 있는 단단한 물건들을 소개합니다.
+                경기 시흥시 함송로 24 세종프라자 1층 대영철물점<br />
+                일반 공구 · 생활용품 · 출장시공 전문
               </p>
               <div className="flex gap-4">
                 {/* Social Placeholder Icons */}
